@@ -29,5 +29,7 @@ public class AddressBook {
         int zip = sc.nextInt();
         Contact c1 = new Contact(name, lname, city, state, email, phone, zip);
         adBook.add(c1);
+
+
     }
 }
